@@ -1,6 +1,6 @@
 # Pricing the fill: a pre-registered out-of-sample test of a 1,637% day-trading strategy
 
-**[David Sun]** · [Cornell University] · August 2026
+**David Sun** · Cornell University · August 2026
 
 A 2024 paper reports that a 5-minute opening-range breakout on high relative-volume US stocks
 returned **1,637% from 2016 to 2023, Sharpe 2.81**, modelling commissions but no slippage. I rebuilt
@@ -276,4 +276,7 @@ transcribed from the run logs and tagged with its source run.
 └── figures/
 ```
 
-**Tools.** QuantConnect LEAN (Python). Claude (Anthropic) was used as a research assistant, signed David Sun.
+**Tools.** QuantConnect LEAN (Python). Claude (Anthropic) was used as a research assistant. 
+
+Signed Yours Truly,
+David Sun
