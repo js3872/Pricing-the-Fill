@@ -1,0 +1,158 @@
+2019-11-17 00:00:00 Launching analysis for a2194c9b4ce02e4c31b569e847182f0e with LEAN Engine v2.5.0.0.18101
+2019-11-17 00:00:00 Algorithm starting warm up...
+2020-01-01 00:00:00 ========================================================================
+2020-01-01 00:00:00 OR LIQUIDITY PROVISION v3  MODE=OOS  FRICTION=paper  u500  N=5
+2020-01-01 00:00:00   ENTRY_MODE=stop  offset=0.0xATR  maker_capture=0.0  exit=MOC only
+2020-01-01 00:00:00   taking the break: GREEN -> BUY STOP at the high, RED -> SELL STOP at the low
+2020-01-01 00:00:00 ========================================================================
+2019-11-20 00:00:00 Processing algorithm warm-up request 6%...
+2019-11-23 00:00:00 Processing algorithm warm-up request 13%...
+2019-11-27 00:00:00 Processing algorithm warm-up request 22%...
+2019-11-29 00:00:00 Processing algorithm warm-up request 27%...
+2019-12-03 00:00:00 Processing algorithm warm-up request 35%...
+2019-12-06 00:00:00 Processing algorithm warm-up request 42%...
+2019-12-10 00:00:00 Processing algorithm warm-up request 51%...
+2019-12-12 00:00:00 Processing algorithm warm-up request 55%...
+2019-12-16 00:00:00 Processing algorithm warm-up request 65%...
+2019-12-18 00:00:00 Processing algorithm warm-up request 68%...
+2019-12-20 00:00:00 Processing algorithm warm-up request 73%...
+2019-12-24 00:00:00 Processing algorithm warm-up request 82%...
+2019-12-27 00:00:00 Processing algorithm warm-up request 88%...
+2020-01-01 00:00:00 Algorithm finished warming up.
+2020-02-27 10:14:00 Order Error: ids: [85], Insufficient buying power to complete orders (Value:[-80573.38]), Reason: Id: 85, Initial Margin: -20145.1755, Free Margin: 20105.3702864628749965.
+2020-05-27 14:56:00 05/27/2020 14:56:00 - Executed MarginCallOrder: VRTX R735QTJ8XC9X - Quantity: 160 @ 274.41
+2020-06-08 15:32:00 Order Error: ids: [728], Insufficient buying power to complete orders (Value:[-89450.55]), Reason: Id: 728, Initial Margin: -22363.999, Free Margin: 22151.199781706754765.
+2020-09-15 11:11:00 Order Error: ids: [1351], Insufficient buying power to complete orders (Value:[-88188.75]), Reason: Id: 1351, Initial Margin: -22050.6, Free Margin: 21944.97798062234266254.
+2020-12-09 11:15:00 Order Error: ids: [1912], Insufficient buying power to complete orders (Value:[106477.56]), Reason: Id: 1912, Initial Margin: 26620.3665, Free Margin: 25652.18105565888264754.
+2021-01-08 10:46:00 Order Error: ids: [2094], Insufficient buying power to complete orders (Value:[-105164.2]), Reason: Id: 2094, Initial Margin: -26292.63, Free Margin: 25633.37774632188264164.
+2021-01-27 10:07:00 Order Error: ids: [2205], Insufficient buying power to complete orders (Value:[-110887]), Reason: Id: 2205, Initial Margin: -27727.563, Free Margin: 26637.55928882888263934.
+2021-01-29 11:00:00 Order Error: ids: [2223], Insufficient buying power to complete orders (Value:[93495]), Reason: Id: 2223, Initial Margin: 23375.647, Free Margin: 14718.65242645688263884.
+2021-03-04 13:22:00 Order Error: ids: [2437], Insufficient buying power to complete orders (Value:[100224]), Reason: Id: 2437, Initial Margin: 25058.5375, Free Margin: 24854.43209829698298114.
+2021-06-03 11:21:00 Order Error: ids: [3021], Insufficient buying power to complete orders (Value:[107641.39]), Reason: Id: 3021, Initial Margin: 26912.612, Free Margin: 26802.10966291297212844.
+2022-08-05 10:54:00 Order Error: ids: [5717], Insufficient buying power to complete orders (Value:[775411.2]), Reason: Id: 5717, Initial Margin: 193884.804, Free Margin: 192644.17943282007346054.
+2022-09-01 00:00:00 Warning: when performing history requests, the start date will be adjusted if there are numerical precision errors in the factor files.
+2022-09-01 00:00:00 Warning: when performing history requests, the start date will be adjusted if it is before the first known date for the symbol.
+2023-01-12 13:09:00 Order Error: ids: [6727], Insufficient buying power to complete orders (Value:[-681937.4]), Reason: Id: 6727, Initial Margin: -170506.37, Free Margin: 168566.18929764175267714.
+2023-03-10 10:11:00 Order Error: ids: [7072], Insufficient buying power to complete orders (Value:[685343.23]), Reason: Id: 7072, Initial Margin: 171381.143, Free Margin: 161025.68497392025257514.
+2023-03-10 11:21:00 03/10/2023 11:21:00 - Executed MarginCallOrder: FRC USALKHKMDEG5 - Quantity: 3480 @ 89.31
+2023-03-10 11:21:00 03/10/2023 11:21:00 - Executed MarginCallOrder: ZM X3RPXTZRW09X - Quantity: 4590 @ 67.75
+2023-03-29 15:22:00 Order Error: ids: [7190], Insufficient buying power to complete orders (Value:[-677831.7]), Reason: Id: 7190, Initial Margin: -169495.1685, Free Margin: 168492.05900555225254914.
+2023-10-02 10:49:00 Order Error: ids: [8155], Insufficient buying power to complete orders (Value:[-469223.4]), Reason: Id: 8155, Initial Margin: -117323.069, Free Margin: 117149.95638029625238994.
+2024-04-24 09:56:00 Order Error: ids: [9218], Insufficient buying power to complete orders (Value:[-266489.2]), Reason: Id: 9218, Initial Margin: -66625.416, Free Margin: 65075.31903841235217354.
+2024-05-23 13:29:00 Order Error: ids: [9388], Insufficient buying power to complete orders (Value:[-246315]), Reason: Id: 9388, Initial Margin: -61584, Free Margin: 61522.83197775460216234.
+2024-08-01 12:47:00 Order Error: ids: [9812], Insufficient buying power to complete orders (Value:[-172592.4]), Reason: Id: 9812, Initial Margin: -43159.8895, Free Margin: 42955.11462863395213654.
+2024-12-18 15:32:00 Order Error: ids: [10638], Insufficient buying power to complete orders (Value:[-120470.9]), Reason: Id: 10638, Initial Margin: -30119.51982592, Free Margin: 29280.22555544529209094.
+2025-04-07 10:17:00 Order Error: ids: [11276], Insufficient buying power to complete orders (Value:[76866.4290]), Reason: Id: 11276, Initial Margin: 19219.561248, Free Margin: 18132.85623412629206914.
+2025-08-01 11:50:00 Order Error: ids: [11996], Insufficient buying power to complete orders (Value:[51311.98]), Reason: Id: 11996, Initial Margin: 12828.9540000000000001, Free Margin: 12387.77429536349266216.
+2025-08-07 11:29:00 Order Error: ids: [12032], Insufficient buying power to complete orders (Value:[53791.45]), Reason: Id: 12032, Initial Margin: 13450.617, Free Margin: 11980.90712246349266166.
+2025-09-09 13:16:00 Order Error: ids: [12230], Insufficient buying power to complete orders (Value:[56624.28]), Reason: Id: 12230, Initial Margin: 14157.792, Free Margin: 14044.67110576749265624.
+2025-09-22 10:46:00 09/22/2025 10:46:00 - Executed MarginCallOrder: ALCC XPZ8XR0U0MLH - Quantity: 259 @ 135.57
+2025-09-22 10:46:00 09/22/2025 10:46:00 - Executed MarginCallOrder: TEM YJ8T9SFFVWBP - Quantity: -387 @ 90.68
+2025-09-23 12:51:00 09/23/2025 12:51:00 - Executed MarginCallOrder: RKLB XRAIE8KXOUAT - Quantity: 464 @ 53.55
+2025-09-23 12:51:00 09/23/2025 12:51:00 - Executed MarginCallOrder: BE WWGTKVBPGKF9 - Quantity: -315 @ 78.92
+2025-12-11 13:14:00 Order Error: ids: [12832], Insufficient buying power to complete orders (Value:[-38253.69]), Reason: Id: 12832, Initial Margin: -9564.1234853500000001, Free Margin: 9439.68333929686764792.
+2026-04-14 11:35:00 Order Error: ids: [13585], Insufficient buying power to complete orders (Value:[-91031.85]), Reason: Id: 13585, Initial Margin: -22759.9575, Free Margin: 22571.18981793202456932.
+2026-04-29 10:31:00 Order Error: ids: [13683], Insufficient buying power to complete orders (Value:[76002.3]), Reason: Id: 13683, Initial Margin: 19001.5200000000000001, Free Margin: 18970.80735391352456794.
+2026-05-11 11:38:00 Order Error: ids: [13761], Insufficient buying power to complete orders (Value:[79806.6346]), Reason: Id: 13761, Initial Margin: 19952.8311558625, Free Margin: 19324.67207036822456674.
+2026-07-01 00:00:00 ========================================================================
+2026-07-01 00:00:00 INTEGRITY CHECK -- read before anything else
+2026-07-01 00:00:00   positions stranded at close-out: 0   OK
+2026-07-01 00:00:00   REL_R_MIN=0.008  ->  qualifying pool 17.2 names/day (need >= 5 to fill the book; 54286 rejections)
+2026-07-01 00:00:00   BREADTH FLOOR: below ~3 trades/day a sub-50% win rate stops
+2026-07-01 00:00:00   obeying the law of large numbers. Check trades/day before Sharpe.
+2026-07-01 00:00:00   entry orders placed / filled: 7601 / 6470   FILL RATE 85.1%
+2026-07-01 00:00:00   (stop and limit modes should have SIMILAR fill rates -- same level,
+2026-07-01 00:00:00    same bars. A large gap means the two fill models disagree.)
+2026-07-01 00:00:00   VERDICT: clean
+2026-07-01 00:00:00 ========================================================================
+2026-07-01 00:00:00 FRICTION AUDIT   preset=paper  mode=stop  maker_capture=0.0
+2026-07-01 00:00:00   fills charged 12947   mean price $147.23
+2026-07-01 00:00:00   mean +2.00 c/side = +2.05 bp/side (negative = the maker is being PAID)
+2026-07-01 00:00:00     flat    n= 12947    +2.00 c/side   +2.05 bp/side
+2026-07-01 00:00:00 ========================================================================
+2026-07-01 00:00:00 Trades 6470   ENTRY_MODE=stop
+2026-07-01 00:00:00 Win rate 51.3%   mean gross +0.1087R   NET +0.0977R
+2026-07-01 00:00:00 Edge on notional +13.34 bp
+2026-07-01 00:00:00 Leverage-bound 75.3%  << BELOW 97%: CAGR NOT COMPARABLE
+2026-07-01 00:00:00 Gross exposure: target 3.60x, fill rate 85.1% -> realised ~3.06x (85% of the leverage budget)
+2026-07-01 00:00:00 ------------------------------------------------------------------------
+2026-07-01 00:00:00 SWEEP 1of3 -- STOP WIDTH (exit on adverse excursion)
+2026-07-01 00:00:00   stop               % hit     net R   vs none
+2026-07-01 00:00:00   1R (0.20xATR)      68.5%   +0.0397   -0.0580
+2026-07-01 00:00:00   1.5R (0.30xATR)    55.2%   +0.0697   -0.0280
+2026-07-01 00:00:00   2R (0.40xATR)      43.5%   +0.0938   -0.0039
+2026-07-01 00:00:00   3R (0.60xATR)      26.6%   +0.1011   +0.0033
+2026-07-01 00:00:00   4R (0.80xATR)      15.7%   +0.1015   +0.0038
+2026-07-01 00:00:00   6R (1.20xATR)       5.9%   +0.0820   -0.0158
+2026-07-01 00:00:00   10R (2.00xATR)      0.8%   +0.0956   -0.0022
+2026-07-01 00:00:00 ------------------------------------------------------------------------
+2026-07-01 00:00:00 SWEEP 2of3 -- PROFIT TARGET (the give-back nobody has examined)
+2026-07-01 00:00:00   mean MFE +2.447R vs mean NET +0.0977R -- the average trade gives back 2.35R from its peak
+2026-07-01 00:00:00   target             % hit     net R   vs none
+2026-07-01 00:00:00   +1R (0.20xATR)     71.3%   +0.0468   -0.0509
+2026-07-01 00:00:00   +2R (0.40xATR)     46.5%   +0.0680   -0.0297
+2026-07-01 00:00:00   +3R (0.60xATR)     28.7%   +0.0796   -0.0182
+2026-07-01 00:00:00   +4R (0.80xATR)     17.5%   +0.0903   -0.0074
+2026-07-01 00:00:00   +6R (1.20xATR)      6.7%   +0.0872   -0.0105
+2026-07-01 00:00:00   +8R (1.60xATR)      2.6%   +0.0853   -0.0125
+2026-07-01 00:00:00 ------------------------------------------------------------------------
+2026-07-01 00:00:00 SWEEP 3of3 -- EXIT TIME (does the edge decay through the day?)
+2026-07-01 00:00:00   exit at            n obs     net R  vs close
+2026-07-01 00:00:00   10:30               5962   +0.0383   -0.0594
+2026-07-01 00:00:00   11:30               6214   +0.0255   -0.0722
+2026-07-01 00:00:00   12:30               6319   +0.0630   -0.0347
+2026-07-01 00:00:00   13:30               6354   +0.0623   -0.0354
+2026-07-01 00:00:00   14:30               6390   +0.0870   -0.0108
+2026-07-01 00:00:00   15:48 (MOC)         6470   +0.0977   +0.0000
+2026-07-01 00:00:00 ------------------------------------------------------------------------
+2026-07-01 00:00:00 MIRROR CHECK -- run the other ENTRY_MODE and compare:
+2026-07-01 00:00:00    net_R(limit) should equal -net_R(stop) + the spread not crossed.
+2026-07-01 00:00:00    this run: NET +0.0977R  gross +0.1087R
+2026-07-01 00:00:00    If the two modes are not near-mirrors, a fill model is wrong
+2026-07-01 00:00:00    and nothing below should be quoted.
+2026-07-01 00:00:00 ------------------------------------------------------------------------
+2026-07-01 00:00:00 THE TAIL
+2026-07-01 00:00:00   worst trade -24.27R (SMCI TRCCM6DL04MD)   worst 5: -24.3 -21.2 -18.5 -18.4 -15.3
+2026-07-01 00:00:00   1st pct -7.92R   5th -4.71R
+2026-07-01 00:00:00   worst DAY -26.01% on 2024-12-18
+2026-07-01 00:00:00   mean MAE -2.293R   mean MFE +2.447R
+2026-07-01 00:00:00 ------------------------------------------------------------------------
+2026-07-01 00:00:00 NET R BY MAE BUCKET
+2026-07-01 00:00:00   MAE -1e+09..-6 R  n=   384 ( 5.9%)  net -5.7666R
+2026-07-01 00:00:00   MAE     -6..-4 R  n=   633 ( 9.8%)  net -3.0194R
+2026-07-01 00:00:00   MAE     -4..-3 R  n=   705 (10.9%)  net -1.5869R
+2026-07-01 00:00:00   MAE     -3..-2 R  n=  1090 (16.8%)  net -0.4106R
+2026-07-01 00:00:00   MAE     -2..-1 R  n=  1619 (25.0%)  net +0.9198R
+2026-07-01 00:00:00   MAE     -1..0  R  n=  2038 (31.5%)  net +2.3725R
+2026-07-01 00:00:00 ------------------------------------------------------------------------
+2026-07-01 00:00:00   long  n=  3175 (49.1%)  net +0.1112R  total +353R
+2026-07-01 00:00:00   short n=  3295 (50.9%)  net +0.0848R  total +279R
+2026-07-01 00:00:00 ------------------------------------------------------------------------
+2026-07-01 00:00:00 NET R BY RVOL
+2026-07-01 00:00:00 bucket              n     net R   edge bp
+2026-07-01 00:00:00 100-500%         5731   +0.0800    +12.06
+2026-07-01 00:00:00 500-1000%         541   +0.3350    +34.66
+2026-07-01 00:00:00 1000-2000%        174   -0.0101    -17.02
+2026-07-01 00:00:00 2000-5000%         23   -0.2941    +56.33
+2026-07-01 00:00:00 ------------------------------------------------------------------------
+2026-07-01 00:00:00 NET R BY R/PRICE
+2026-07-01 00:00:00 bucket              n     net R   edge bp
+2026-07-01 00:00:00 0.6-0.8%           21   +0.7204    +57.41
+2026-07-01 00:00:00 0.8-1.2%         4027   +0.1002     +9.40
+2026-07-01 00:00:00 1.2-2.0%         1885   +0.0604     +9.71
+2026-07-01 00:00:00 2.0-100.0%        537   +0.1858    +53.91
+2026-07-01 00:00:00 ------------------------------------------------------------------------
+2026-07-01 00:00:00 CONCENTRATION (>15% of total = lucky draw, not factor)
+2026-07-01 00:00:00   CD R735QTJ8XC9X   +109.5R    3.4%
+2026-07-01 00:00:00   MRNA X05QXHPHSF39    +54.3R    1.7%
+2026-07-01 00:00:00   DMYI XKX38GCLV1WL    -52.0R    1.6%
+2026-07-01 00:00:00   AMC VMGNNM1SRKH1    +51.8R    1.6%
+2026-07-01 00:00:00   RBLX XMP3AJ4KU3C5    +48.4R    1.5%
+2026-07-01 00:00:00   SMCI TRCCM6DL04MD    -47.0R    1.5%
+2026-07-01 00:00:00   ALB R735QTJ8XC9X    +40.9R    1.3%
+2026-07-01 00:00:00   MTCH XFSYMYY1JYW5    +40.3R    1.3%
+2026-07-01 00:00:00   UPST XKEDQOEEEPUT    -40.0R    1.2%
+2026-07-01 00:00:00   SHOP W0PNKBMQMN39    +38.6R    1.2%
+2026-07-01 00:00:00 ========================================================================
+2026-07-01 00:00:00 Algorithm Id:(a2194c9b4ce02e4c31b569e847182f0e) completed in 4055.40 seconds at 161k data points per second. Processing total of 654,002,909 data points.
+2026-07-01 00:00:00 Due to numerical precision issues in the factor file, data for the following symbols was adjust to a later starting date: [VATE, 12/30/2050]
