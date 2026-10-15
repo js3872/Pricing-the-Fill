@@ -1,0 +1,121 @@
+2015-11-17 00:00:00 Launching analysis for 5ee7e58b664924d39cde99b136bc7ee9 with LEAN Engine v2.5.0.0.18095
+2015-11-17 00:00:00 Algorithm starting warm up...
+2016-01-01 00:00:00 ========================================================================
+2016-01-01 00:00:00 OR LIQUIDITY PROVISION v3  MODE=IS  FRICTION=measured  u500  N=5
+2016-01-01 00:00:00   ENTRY_MODE=stop  offset=0.0xATR  maker_capture=0.0  exit=MOC only
+2016-01-01 00:00:00   taking the break: GREEN -> BUY STOP at the high, RED -> SELL STOP at the low
+2016-01-01 00:00:00 ========================================================================
+2015-11-19 16:00:00 Processing algorithm warm-up request 6%...
+2015-11-24 00:00:00 Processing algorithm warm-up request 15%...
+2015-11-26 00:00:00 Processing algorithm warm-up request 22%...
+2015-11-28 00:00:00 Processing algorithm warm-up request 28%...
+2015-12-01 00:00:00 Processing algorithm warm-up request 31%...
+2015-12-03 00:00:00 Processing algorithm warm-up request 35%...
+2015-12-05 00:00:00 Processing algorithm warm-up request 40%...
+2015-12-09 00:00:00 Processing algorithm warm-up request 48%...
+2015-12-12 00:00:00 Processing algorithm warm-up request 55%...
+2015-12-16 00:00:00 Processing algorithm warm-up request 64%...
+2015-12-19 00:00:00 Processing algorithm warm-up request 71%...
+2015-12-23 00:00:00 Processing algorithm warm-up request 80%...
+2015-12-29 00:00:00 Processing algorithm warm-up request 93%...
+2016-01-01 00:00:00 Algorithm finished warming up.
+2020-01-01 00:00:00 ========================================================================
+2020-01-01 00:00:00 INTEGRITY CHECK -- read before anything else
+2020-01-01 00:00:00   positions stranded at close-out: 0   OK
+2020-01-01 00:00:00   REL_R_MIN=0.008  ->  qualifying pool 1.9 names/day (need >= 5 to fill the book; 9865 rejections)
+2020-01-01 00:00:00   BREADTH FLOOR: below ~3 trades/day a sub-50% win rate stops
+2020-01-01 00:00:00   obeying the law of large numbers. Check trades/day before Sharpe.
+2020-01-01 00:00:00   entry orders placed / filled: 1461 / 1205   FILL RATE 82.5%
+2020-01-01 00:00:00   (stop and limit modes should have SIMILAR fill rates -- same level,
+2020-01-01 00:00:00    same bars. A large gap means the two fill models disagree.)
+2020-01-01 00:00:00   VERDICT: clean
+2020-01-01 00:00:00 ========================================================================
+2020-01-01 00:00:00 FRICTION AUDIT   preset=measured  mode=stop  maker_capture=0.0
+2020-01-01 00:00:00   fills charged 2410   mean price $123.25
+2020-01-01 00:00:00   mean +10.83 c/side = +8.54 bp/side (negative = the maker is being PAID)
+2020-01-01 00:00:00     take    n=  1205   +19.80 c/side  +15.57 bp/side
+2020-01-01 00:00:00     close   n=  1205    +1.85 c/side   +1.50 bp/side
+2020-01-01 00:00:00 ========================================================================
+2020-01-01 00:00:00 Trades 1205   ENTRY_MODE=stop
+2020-01-01 00:00:00 Win rate 51.1%   mean gross +0.1635R   NET +0.1514R
+2020-01-01 00:00:00 Edge on notional +22.16 bp
+2020-01-01 00:00:00 Leverage-bound 85.0%  << BELOW 97%: CAGR NOT COMPARABLE
+2020-01-01 00:00:00 Gross exposure: target 3.60x, fill rate 82.5% -> realised ~2.97x (82% of the leverage budget)
+2020-01-01 00:00:00 ------------------------------------------------------------------------
+2020-01-01 00:00:00 SWEEP 1of3 -- STOP WIDTH (exit on adverse excursion)
+2020-01-01 00:00:00   stop               % hit     net R   vs none
+2020-01-01 00:00:00   1R (0.20xATR)      65.4%   -0.0064   -0.1578
+2020-01-01 00:00:00   1.5R (0.30xATR)    50.4%   +0.0658   -0.0856
+2020-01-01 00:00:00   2R (0.40xATR)      38.6%   +0.1032   -0.0482
+2020-01-01 00:00:00   3R (0.60xATR)      21.2%   +0.1358   -0.0156
+2020-01-01 00:00:00   4R (0.80xATR)      11.1%   +0.1354   -0.0160
+2020-01-01 00:00:00   6R (1.20xATR)       2.7%   +0.1574   +0.0060
+2020-01-01 00:00:00   10R (2.00xATR)      0.4%   +0.1653   +0.0139
+2020-01-01 00:00:00 ------------------------------------------------------------------------
+2020-01-01 00:00:00 SWEEP 2of3 -- PROFIT TARGET (the give-back nobody has examined)
+2020-01-01 00:00:00   mean MFE +2.221R vs mean NET +0.1514R -- the average trade gives back 2.07R from its peak
+2020-01-01 00:00:00   target             % hit     net R   vs none
+2020-01-01 00:00:00   +1R (0.20xATR)     68.4%   -0.0141   -0.1655
+2020-01-01 00:00:00   +2R (0.40xATR)     43.2%   +0.0639   -0.0875
+2020-01-01 00:00:00   +3R (0.60xATR)     26.9%   +0.1215   -0.0299
+2020-01-01 00:00:00   +4R (0.80xATR)     15.4%   +0.1375   -0.0139
+2020-01-01 00:00:00   +6R (1.20xATR)      5.4%   +0.1690   +0.0176
+2020-01-01 00:00:00   +8R (1.60xATR)      2.0%   +0.1637   +0.0123
+2020-01-01 00:00:00 ------------------------------------------------------------------------
+2020-01-01 00:00:00 SWEEP 3of3 -- EXIT TIME (does the edge decay through the day?)
+2020-01-01 00:00:00   exit at            n obs     net R  vs close
+2020-01-01 00:00:00   10:30               1101   +0.0106   -0.1408
+2020-01-01 00:00:00   11:30               1156   +0.0269   -0.1245
+2020-01-01 00:00:00   12:30               1175   +0.0929   -0.0586
+2020-01-01 00:00:00   13:30               1175   +0.0887   -0.0627
+2020-01-01 00:00:00   14:30               1187   +0.0852   -0.0662
+2020-01-01 00:00:00   15:48 (MOC)         1205   +0.1514   +0.0000
+2020-01-01 00:00:00 ------------------------------------------------------------------------
+2020-01-01 00:00:00 MIRROR CHECK -- run the other ENTRY_MODE and compare:
+2020-01-01 00:00:00    net_R(limit) should equal -net_R(stop) + the spread not crossed.
+2020-01-01 00:00:00    this run: NET +0.1514R  gross +0.1635R
+2020-01-01 00:00:00    If the two modes are not near-mirrors, a fill model is wrong
+2020-01-01 00:00:00    and nothing below should be quoted.
+2020-01-01 00:00:00 ------------------------------------------------------------------------
+2020-01-01 00:00:00 THE TAIL
+2020-01-01 00:00:00   worst trade -17.94R (GRUB VPFZDSX73SYT)   worst 5: -17.9 -14.6 -13.8 -11.1 -10.0
+2020-01-01 00:00:00   1st pct -7.18R   5th -3.93R
+2020-01-01 00:00:00   worst DAY -11.19% on 2018-11-06
+2020-01-01 00:00:00   mean MAE -2.059R   mean MFE +2.221R
+2020-01-01 00:00:00 ------------------------------------------------------------------------
+2020-01-01 00:00:00 NET R BY MAE BUCKET
+2020-01-01 00:00:00   MAE -1e+09..-6 R  n=    33 ( 2.7%)  net -6.3580R
+2020-01-01 00:00:00   MAE     -6..-4 R  n=   101 ( 8.4%)  net -3.2235R
+2020-01-01 00:00:00   MAE     -4..-3 R  n=   121 (10.0%)  net -2.0367R
+2020-01-01 00:00:00   MAE     -3..-2 R  n=   210 (17.4%)  net -0.7382R
+2020-01-01 00:00:00   MAE     -2..-1 R  n=   323 (26.8%)  net +0.7087R
+2020-01-01 00:00:00   MAE     -1..0  R  n=   417 (34.6%)  net +2.1352R
+2020-01-01 00:00:00 ------------------------------------------------------------------------
+2020-01-01 00:00:00   long  n=   652 (54.1%)  net +0.1910R  total +125R
+2020-01-01 00:00:00   short n=   553 (45.9%)  net +0.1047R  total +58R
+2020-01-01 00:00:00 ------------------------------------------------------------------------
+2020-01-01 00:00:00 NET R BY RVOL
+2020-01-01 00:00:00 bucket              n     net R   edge bp
+2020-01-01 00:00:00 100-500%         1106   +0.1525    +20.52
+2020-01-01 00:00:00 500-1000%          75   +0.3917    +68.88
+2020-01-01 00:00:00 1000-2000%         21   -0.9283    -69.30
+2020-01-01 00:00:00 ------------------------------------------------------------------------
+2020-01-01 00:00:00 NET R BY R/PRICE
+2020-01-01 00:00:00 bucket              n     net R   edge bp
+2020-01-01 00:00:00 0.8-1.2%          913   +0.1039     +8.96
+2020-01-01 00:00:00 1.2-2.0%          228   +0.1815    +29.61
+2020-01-01 00:00:00 2.0-100.0%         55   +0.8597   +215.68
+2020-01-01 00:00:00 ------------------------------------------------------------------------
+2020-01-01 00:00:00 CONCENTRATION (>15% of total = lucky draw, not factor)
+2020-01-01 00:00:00   W VUE7AQ4QYD0L    +57.9R    7.8%
+2020-01-01 00:00:00   BVF R735QTJ8XC9X    +40.7R    5.5%
+2020-01-01 00:00:00   ROKU WO9FGTL2I89X    +39.4R    5.3%
+2020-01-01 00:00:00   WDAY VAP9FER7V5GL    -34.7R    4.7%
+2020-01-01 00:00:00   COUP WEHWVFZT6VZ9    -28.7R    3.9%
+2020-01-01 00:00:00   MDB WOU3US9M42N9    +25.7R    3.5%
+2020-01-01 00:00:00   SQ W5OUXC7GJYAT    +19.6R    2.7%
+2020-01-01 00:00:00   OSTK SF3G193U19ID    +19.5R    2.6%
+2020-01-01 00:00:00   TWLO WBMIXML35O4L    +18.7R    2.5%
+2020-01-01 00:00:00   INCY R735QTJ8XC9X    -18.4R    2.5%
+2020-01-01 00:00:00 ========================================================================
+2020-01-01 00:00:00 Algorithm Id:(5ee7e58b664924d39cde99b136bc7ee9) completed in 2657.08 seconds at 151k data points per second. Processing total of 400,879,984 data points.
