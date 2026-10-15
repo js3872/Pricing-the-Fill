@@ -1,0 +1,217 @@
+2019-08-14 00:00:00 Launching analysis for 7e5f91147e2069759f194a2d499bd476 with LEAN Engine v2.5.0.0.18101
+2019-08-14 00:00:00 Algorithm starting warm up...
+2020-01-01 00:00:00 ========================================================================
+2020-01-01 00:00:00 ORB v8 -- PRE-REGISTERED OUT-OF-SAMPLE RUN   MODE=OOS  FRICTION=measured  u500  N=5
+2020-01-01 00:00:00   RANK_BY=rvol  REL_R_MIN=0.008  MAX_GAP_ATR=3.0
+2020-01-01 00:00:00   PREDICTION net R +0.09 [-0.02,+0.20] | n 2600 | CAGR +8% | MDD 62%
+2020-01-01 00:00:00   DECISION   <=0 CLOSES | 0..+0.05 not tradeable | >+0.05 replicated
+2020-01-01 00:00:00   VOID IF    stranded>0 | fill<70% | lev-bound<97% | trades/day<1.0
+2020-01-01 00:00:00   ENTRY_MODE=stop  offset=0.0xATR  maker_capture=0.0  exit=MOC only
+2020-01-01 00:00:00   taking the break: GREEN -> BUY STOP at the high, RED -> SELL STOP at the low
+2020-01-01 00:00:00 ========================================================================
+2019-08-16 00:00:00 Processing algorithm warm-up request 1%...
+2019-08-19 00:00:00 Processing algorithm warm-up request 4%...
+2019-08-23 00:00:00 Processing algorithm warm-up request 6%...
+2019-08-27 00:00:00 Processing algorithm warm-up request 9%...
+2019-08-29 00:00:00 Processing algorithm warm-up request 11%...
+2019-09-03 00:00:00 Processing algorithm warm-up request 14%...
+2019-09-05 00:00:00 Processing algorithm warm-up request 16%...
+2019-09-09 00:00:00 Processing algorithm warm-up request 19%...
+2019-09-11 16:00:00 Processing algorithm warm-up request 20%...
+2019-09-16 00:00:00 Processing algorithm warm-up request 24%...
+2019-09-19 16:00:00 Processing algorithm warm-up request 26%...
+2019-09-25 00:00:00 Processing algorithm warm-up request 29%...
+2019-10-01 00:00:00 Processing algorithm warm-up request 34%...
+2019-10-05 00:00:00 Processing algorithm warm-up request 37%...
+2019-10-11 00:00:00 Processing algorithm warm-up request 41%...
+2019-10-18 00:00:00 Processing algorithm warm-up request 46%...
+2019-10-23 00:00:00 Processing algorithm warm-up request 49%...
+2019-10-28 00:00:00 Processing algorithm warm-up request 54%...
+2019-11-01 00:00:00 Processing algorithm warm-up request 56%...
+2019-11-06 00:00:00 Processing algorithm warm-up request 60%...
+2019-11-09 00:00:00 Processing algorithm warm-up request 62%...
+2019-11-14 00:00:00 Processing algorithm warm-up request 65%...
+2019-11-20 00:00:00 Processing algorithm warm-up request 70%...
+2019-11-27 00:00:00 Processing algorithm warm-up request 75%...
+2019-12-03 00:00:00 Processing algorithm warm-up request 79%...
+2019-12-07 00:00:00 Processing algorithm warm-up request 82%...
+2019-12-12 00:00:00 Processing algorithm warm-up request 85%...
+2019-12-17 16:00:00 Processing algorithm warm-up request 90%...
+2019-12-23 16:00:00 Processing algorithm warm-up request 94%...
+2019-12-27 00:00:00 Processing algorithm warm-up request 96%...
+2020-01-01 00:00:00 Algorithm finished warming up.
+2020-02-27 10:14:00 Order Error: ids: [46], Insufficient buying power to complete orders (Value:[-77492.18]), Reason: Id: 46, Initial Margin: -19374.8055, Free Margin: 19033.210026913151588843.
+2020-05-27 14:56:00 05/27/2020 14:56:00 - Executed MarginCallOrder: VRTX R735QTJ8XC9X - Quantity: 109 @ 274.431158499999999994
+2020-06-08 15:40:00 Order Error: ids: [688], Insufficient buying power to complete orders (Value:[-47483]), Reason: Id: 688, Initial Margin: -11871.471, Free Margin: 11833.0659207766801717286.
+2020-09-15 11:07:00 Order Error: ids: [1308], Insufficient buying power to complete orders (Value:[-47580.72]), Reason: Id: 1308, Initial Margin: -11897.028, Free Margin: 11893.2089993971488437036.
+2020-10-01 10:03:00 Order Error: ids: [1426], Insufficient buying power to complete orders (Value:[-36487.65]), Reason: Id: 1426, Initial Margin: -9122.6650000000000001, Free Margin: 9014.9271598847349361106.
+2020-11-03 10:18:00 Order Error: ids: [1634], Insufficient buying power to complete orders (Value:[-44207.56]), Reason: Id: 1634, Initial Margin: -11052.863, Free Margin: 10865.9730546404764058931.
+2021-01-27 10:07:00 Order Error: ids: [2154], Insufficient buying power to complete orders (Value:[-29761.6]), Reason: Id: 2154, Initial Margin: -7441.9575, Free Margin: 7134.2421608109615646216.
+2021-03-04 13:22:00 Order Error: ids: [2390], Insufficient buying power to complete orders (Value:[23224.32]), Reason: Id: 2390, Initial Margin: 5806.668, Free Margin: 5766.9209720270603544756.
+2021-07-20 13:10:00 Order Error: ids: [3226], Insufficient buying power to complete orders (Value:[15990]), Reason: Id: 3226, Initial Margin: 3997.955, Free Margin: 3909.0128242979965484296.
+2021-11-10 13:15:00 Order Error: ids: [3924], Insufficient buying power to complete orders (Value:[-20435.33]), Reason: Id: 3924, Initial Margin: -5109.03582245, Free Margin: 3842.317656032001544431.
+2022-05-23 12:22:00 Order Error: ids: [5147], Insufficient buying power to complete orders (Value:[12207.875]), Reason: Id: 5147, Initial Margin: 3052.41325, Free Margin: 3028.9673019259044235595.
+2022-08-05 10:54:00 Order Error: ids: [5614], Insufficient buying power to complete orders (Value:[14500.8]), Reason: Id: 5614, Initial Margin: 3625.7985, Free Margin: 3583.571597213259448773.
+2022-09-01 00:00:00 Warning: when performing history requests, the start date will be adjusted if there are numerical precision errors in the factor files.
+2022-09-01 00:00:00 Warning: when performing history requests, the start date will be adjusted if it is before the first known date for the symbol.
+2022-11-04 10:27:00 Order Error: ids: [6202], Insufficient buying power to complete orders (Value:[9683.5]), Reason: Id: 6202, Initial Margin: 2421.5085000000000001, Free Margin: 2189.2258342949766190005.
+2023-01-12 13:09:00 Order Error: ids: [6615], Insufficient buying power to complete orders (Value:[-6608.13]), Reason: Id: 6615, Initial Margin: -1652.246, Free Margin: 1642.2763698406078077715.
+2023-03-29 15:47:00 Order Error: ids: [7062], Insufficient buying power to complete orders (Value:[-5243.9]), Reason: Id: 7062, Initial Margin: -1311.26200000000000003, Free Margin: 1305.0897395664611317765.
+2023-04-06 12:42:00 Order Error: ids: [7110], Insufficient buying power to complete orders (Value:[-4638.458]), Reason: Id: 7110, Initial Margin: -1159.70193426875000001, Free Margin: 1158.7975979962690170495.
+2026-07-01 00:00:00 ========================================================================
+2026-07-01 00:00:00 INTEGRITY CHECK -- read before anything else
+2026-07-01 00:00:00   positions stranded at close-out: 0   OK
+2026-07-01 00:00:00   MAX_GAP_ATR=3.0 -> 105 gap rejections (LOOSE on purpose: read the gap table, then set it)
+2026-07-01 00:00:00   RANK_BY=rvol  pool 14.0 names/day vs N=5  ->  ranking BINDS (selects top 36%)
+2026-07-01 00:00:00   REL_R_MIN=0.008  ->  qualifying pool 14.0 names/day (need >= 5 to fill the book; 48961 rejections)
+2026-07-01 00:00:00   BREADTH FLOOR: below ~3 trades/day a sub-50% win rate stops
+2026-07-01 00:00:00   obeying the law of large numbers. Check trades/day before Sharpe.
+2026-07-01 00:00:00   entry orders placed / filled: 6165 / 5294   FILL RATE 85.9%
+2026-07-01 00:00:00   (stop and limit modes should have SIMILAR fill rates -- same level,
+2026-07-01 00:00:00    same bars. A large gap means the two fill models disagree.)
+2026-07-01 00:00:00   VERDICT: clean
+2026-07-01 00:00:00 ========================================================================
+2026-07-01 00:00:00 FRICTION AUDIT   preset=measured  mode=stop  maker_capture=0.0
+2026-07-01 00:00:00   fills charged 10589   mean price $137.53
+2026-07-01 00:00:00   mean +11.88 c/side = +9.14 bp/side (negative = the maker is being PAID)
+2026-07-01 00:00:00     take    n=  5294   +21.69 c/side  +16.77 bp/side
+2026-07-01 00:00:00     close   n=  5295    +2.07 c/side   +1.51 bp/side
+2026-07-01 00:00:00 ========================================================================
+2026-07-01 00:00:00 Trades 5294   ENTRY_MODE=stop   3.25 trades/day  OK
+2026-07-01 00:00:00 Win rate 48.2%   after-slippage -0.0740R   NET -0.0855R
+2026-07-01 00:00:00   ---- decomposition, per trade, in R ----
+2026-07-01 00:00:00     TRUE GROSS  (decision px to decision px) +0.0783
+2026-07-01 00:00:00     spread      (both sides)                 -0.0273
+2026-07-01 00:00:00     ADVERSE SELECTION (entry only)           -0.1250   <- 160% of gross
+2026-07-01 00:00:00     commission + borrow                      -0.0114
+2026-07-01 00:00:00     NET                                      -0.0855
+2026-07-01 00:00:00   SELF-CHECK  slip/round-trip: model logged $0.2375, reconstruction $0.2375  -> AGREE
+2026-07-01 00:00:00 Edge on notional -12.16 bp
+2026-07-01 00:00:00 Leverage-bound 77.7%  << BELOW 97%: CAGR NOT COMPARABLE
+2026-07-01 00:00:00 Gross exposure: target 3.60x, fill rate 85.9% -> realised ~3.09x (86% of the leverage budget)
+2026-07-01 00:00:00 ------------------------------------------------------------------------
+2026-07-01 00:00:00 SWEEP 1of4 -- STOP WIDTH (exit on adverse excursion)
+2026-07-01 00:00:00   stop               % hit     net R   vs none
+2026-07-01 00:00:00   1R (0.20xATR)      72.8%   -0.1977   -0.1122
+2026-07-01 00:00:00   1.5R (0.30xATR)    58.7%   -0.1501   -0.0647
+2026-07-01 00:00:00   2R (0.40xATR)      46.3%   -0.1211   -0.0357
+2026-07-01 00:00:00   3R (0.60xATR)      27.8%   -0.1006   -0.0152
+2026-07-01 00:00:00   4R (0.80xATR)      15.8%   -0.0924   -0.0069
+2026-07-01 00:00:00   6R (1.20xATR)       5.7%   -0.1038   -0.0183
+2026-07-01 00:00:00   10R (2.00xATR)      0.7%   -0.0896   -0.0041
+2026-07-01 00:00:00 ------------------------------------------------------------------------
+2026-07-01 00:00:00 SWEEP 2of4 -- PROFIT TARGET (the give-back nobody has examined)
+2026-07-01 00:00:00   mean MFE +2.192R vs mean NET -0.0855R -- the average trade gives back 2.28R from its peak
+2026-07-01 00:00:00   target             % hit     net R   vs none
+2026-07-01 00:00:00   +1R (0.20xATR)     66.4%   -0.1755   -0.0900
+2026-07-01 00:00:00   +2R (0.40xATR)     42.1%   -0.1539   -0.0684
+2026-07-01 00:00:00   +3R (0.60xATR)     25.5%   -0.1163   -0.0308
+2026-07-01 00:00:00   +4R (0.80xATR)     15.3%   -0.0974   -0.0119
+2026-07-01 00:00:00   +6R (1.20xATR)      5.5%   -0.0939   -0.0084
+2026-07-01 00:00:00   +8R (1.60xATR)      1.9%   -0.0912   -0.0058
+2026-07-01 00:00:00 ------------------------------------------------------------------------
+2026-07-01 00:00:00 SWEEP 3of4 -- EXIT TIME (does the edge decay through the day?)
+2026-07-01 00:00:00   exit at            n obs     net R  vs close
+2026-07-01 00:00:00   10:30               4896   -0.1891   -0.1036
+2026-07-01 00:00:00   11:30               5102   -0.1957   -0.1102
+2026-07-01 00:00:00   12:30               5170   -0.1701   -0.0847
+2026-07-01 00:00:00   13:30               5196   -0.1700   -0.0845
+2026-07-01 00:00:00   14:30               5228   -0.1465   -0.0610
+2026-07-01 00:00:00   15:48 (MOC)         5294   -0.0855   +0.0000
+2026-07-01 00:00:00 ------------------------------------------------------------------------
+2026-07-01 00:00:00 SWEEP 4of4 -- ADVERSE SELECTION SENSITIVITY  (exact re-pricing)
+2026-07-01 00:00:00   current assumption 0.0250 x ATR = 0.125R per entry, every trade
+2026-07-01 00:00:00   adv_frac       R/entry     net R   note
+2026-07-01 00:00:00   0.00000          0.000   +0.0395   
+2026-07-01 00:00:00   0.00625          0.031   +0.0083   
+2026-07-01 00:00:00   0.01250          0.062   -0.0230   <- dead
+2026-07-01 00:00:00   0.01875          0.094   -0.0542   <- dead
+2026-07-01 00:00:00   0.02500          0.125   -0.0855   <- AS RUN
+2026-07-01 00:00:00   0.03750          0.187   -0.1480   <- dead
+2026-07-01 00:00:00   0.05000          0.250   -0.2105   <- dead
+2026-07-01 00:00:00   0.07500          0.375   -0.3355   <- dead
+2026-07-01 00:00:00   0.10000          0.500   -0.4605   <- dead
+2026-07-01 00:00:00   BREAKEVEN adverse selection = 0.0079 x ATR (0.040R per entry)
+2026-07-01 00:00:00   reference: 'measured' preset = 0.0250, 'conservative' = 0.0500, 'paper' = 0.0
+2026-07-01 00:00:00   => breakeven sits BELOW 0.035: the result lives inside the uncertainty of an unmeasured parameter. Per the pre-registration this is NOT tradeable; measure real adverse selection next.
+2026-07-01 00:00:00 ------------------------------------------------------------------------
+2026-07-01 00:00:00 MIRROR CHECK -- run the other ENTRY_MODE and compare:
+2026-07-01 00:00:00    net_R(limit) should equal -net_R(stop) + the spread not crossed.
+2026-07-01 00:00:00    this run: NET -0.0855R  gross -0.0740R
+2026-07-01 00:00:00    If the two modes are not near-mirrors, a fill model is wrong
+2026-07-01 00:00:00    and nothing below should be quoted.
+2026-07-01 00:00:00 ------------------------------------------------------------------------
+2026-07-01 00:00:00 THE TAIL
+2026-07-01 00:00:00   worst trade -24.39R (SMCI TRCCM6DL04MD)   worst 5: -24.4 -18.2 -15.4 -14.6 -13.7
+2026-07-01 00:00:00   1st pct -7.60R   5th -4.73R
+2026-07-01 00:00:00   worst DAY -25.11% on 2020-03-19
+2026-07-01 00:00:00   mean MAE -2.369R   mean MFE +2.192R
+2026-07-01 00:00:00 ------------------------------------------------------------------------
+2026-07-01 00:00:00 NET R BY MAE BUCKET
+2026-07-01 00:00:00   MAE -1e+09..-6 R  n=   300 ( 5.7%)  net -5.8154R
+2026-07-01 00:00:00   MAE     -6..-4 R  n=   535 (10.1%)  net -3.1298R
+2026-07-01 00:00:00   MAE     -4..-3 R  n=   635 (12.0%)  net -1.7551R
+2026-07-01 00:00:00   MAE     -3..-2 R  n=   980 (18.5%)  net -0.5280R
+2026-07-01 00:00:00   MAE     -2..-1 R  n=  1402 (26.5%)  net +0.8978R
+2026-07-01 00:00:00   MAE     -1..0  R  n=  1442 (27.2%)  net +2.3161R
+2026-07-01 00:00:00 ------------------------------------------------------------------------
+2026-07-01 00:00:00   long  n=  2611 (49.3%)  net -0.0492R  total -128R
+2026-07-01 00:00:00   short n=  2683 (50.7%)  net -0.1207R  total -324R
+2026-07-01 00:00:00 ------------------------------------------------------------------------
+2026-07-01 00:00:00 NET R BY CALENDAR YEAR  <<< the pre-registered predictions live here
+2026-07-01 00:00:00 year          n   /day     net R      long     short
+2026-07-01 00:00:00 2020        927   3.68   -0.0387   +0.1043   -0.1641
+2026-07-01 00:00:00 2021       1029   4.08   +0.0153   -0.0173   +0.0511
+2026-07-01 00:00:00 2022       1077   4.27   +0.0002   +0.1198   -0.1135
+2026-07-01 00:00:00 2023        843   3.35   -0.0069   +0.0242   -0.0402
+2026-07-01 00:00:00 2024        843   3.35   -0.3510   -0.5057   -0.2059
+2026-07-01 00:00:00 2025        469   1.86   -0.2600   -0.0498   -0.4489
+2026-07-01 00:00:00 2026        106   0.42   -0.0851   -0.4169   +0.2002
+2026-07-01 00:00:00 ALL        5294   3.25   -0.0855
+2026-07-01 00:00:00 ------------------------------------------------------------------------
+2026-07-01 00:00:00 NET R BY OVERNIGHT GAP  (|open-prev_close| / ATR)  <<< READ FIRST
+2026-07-01 00:00:00 bucket              n     net R   edge bp
+2026-07-01 00:00:00 0-0.25x          2066   -0.1916    -27.89
+2026-07-01 00:00:00 0.25-0.5x        1492   -0.0681    -11.46
+2026-07-01 00:00:00 0.5-0.75x         777   +0.0158     +6.04
+2026-07-01 00:00:00 0.75-1x           374   -0.1324    -21.72
+2026-07-01 00:00:00 1-1.5x            355   -0.1501    -15.36
+2026-07-01 00:00:00 1.5-2x            110   +0.8127   +123.13
+2026-07-01 00:00:00 >2x               120   +0.3848    +47.09
+2026-07-01 00:00:00 ------------------------------------------------------------------------
+2026-07-01 00:00:00 NET R BY ATR SPIKE  (ATR5 / ATR60 -- event vol vs flow vol)
+2026-07-01 00:00:00 bucket              n     net R   edge bp
+2026-07-01 00:00:00 0-0.8             973   -0.0511     -8.12
+2026-07-01 00:00:00 0.8-1            1420   -0.0398     -3.66
+2026-07-01 00:00:00 1-1.25           1351   -0.0902    -10.52
+2026-07-01 00:00:00 1.25-1.5          755   -0.0360    -16.26
+2026-07-01 00:00:00 1.5-2             536   -0.2140    -23.41
+2026-07-01 00:00:00 >2                259   -0.3183    -47.39
+2026-07-01 00:00:00 ------------------------------------------------------------------------
+2026-07-01 00:00:00 NET R BY RVOL
+2026-07-01 00:00:00 bucket              n     net R   edge bp
+2026-07-01 00:00:00 100-500%         4852   -0.1150    -15.47
+2026-07-01 00:00:00 500-1000%         347   +0.3228    +38.34
+2026-07-01 00:00:00 1000-2000%         89   -0.0932    -32.65
+2026-07-01 00:00:00 ------------------------------------------------------------------------
+2026-07-01 00:00:00 NET R BY R/PRICE
+2026-07-01 00:00:00 bucket              n     net R   edge bp
+2026-07-01 00:00:00 0.6-0.8%           25   +0.3648    +29.04
+2026-07-01 00:00:00 0.8-1.2%         3419   -0.0881     -9.12
+2026-07-01 00:00:00 1.2-2.0%         1496   -0.0501     -7.30
+2026-07-01 00:00:00 2.0-100.0%        354   -0.2411    -65.06
+2026-07-01 00:00:00 ------------------------------------------------------------------------
+2026-07-01 00:00:00 CONCENTRATION (>15% of total = lucky draw, not factor)
+2026-07-01 00:00:00   COIN XNNJXSXHIHYD    -81.7R    3.6%
+2026-07-01 00:00:00   MRVL RVW87MBCBMUD    -53.0R    2.4%
+2026-07-01 00:00:00   SMCI TRCCM6DL04MD    -51.5R    2.3%
+2026-07-01 00:00:00   DMYI XKX38GCLV1WL    -46.1R    2.0%
+2026-07-01 00:00:00   AMC VMGNNM1SRKH1    +44.7R    2.0%
+2026-07-01 00:00:00   FSLR TNQDLU3AWJFP    -41.2R    1.8%
+2026-07-01 00:00:00   UAUA TFUSUWQOV97P    -34.2R    1.5%
+2026-07-01 00:00:00   ABNB XK8H247DY6W5    +33.8R    1.5%
+2026-07-01 00:00:00   TWLO WBMIXML35O4L    -32.0R    1.4%
+2026-07-01 00:00:00   DDOG X7ZCS8BRO6ZP    -32.0R    1.4%
+2026-07-01 00:00:00 ========================================================================
+2026-07-01 00:00:00 Algorithm Id:(7e5f91147e2069759f194a2d499bd476) completed in 6380.42 seconds at 103k data points per second. Processing total of 655,889,305 data points.
+2026-07-01 00:00:00 Due to numerical precision issues in the factor file, data for the following symbols was adjust to a later starting date: [VATE, 12/30/2050]
