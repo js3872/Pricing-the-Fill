@@ -1,6 +1,6 @@
 # Pricing the fill: a pre-registered out-of-sample test of a 1,637% day-trading strategy
 
-**[Your Name]** · [School] · October 2026
+**[David Sun]** · [Cornell University] · August 2026
 
 A 2024 paper reports that a 5-minute opening-range breakout on high relative-volume US stocks
 returned **1,637% from 2016 to 2023, Sharpe 2.81**, modelling commissions but no slippage. I rebuilt
