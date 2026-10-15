@@ -276,4 +276,4 @@ transcribed from the run logs and tagged with its source run.
 └── figures/
 ```
 
-**Tools.** QuantConnect LEAN (Python). Claude (Anthropic) was used as a research assistant.
+**Tools.** QuantConnect LEAN (Python). Claude (Anthropic) was used as a research assistant, signed David Sun.
