@@ -25,8 +25,3 @@ cents per share per fill, roughly the paper's assumption.
 where position sizing was capped differently; net R per trade is size-independent and is the
 primary metric throughout.
 
-## Raw logs
-
-The QuantConnect log for each run (`<Run Name>_logs.txt`) belongs in this folder. The v8 log
-opens with the pre-registered prediction, decision rule and void conditions, printed by the
-algorithm before any trade was simulated.
